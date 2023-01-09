@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HompageComponent } from './hompage/hompage.component';
+import { ForgotpasswordpageComponent } from './forgotpasswordpage/forgotpasswordpage.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { RegisterpageComponent } from './registerpage/registerpage.component';
+import { ResetpasswordpageComponent } from './resetpasswordpage/resetpasswordpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HompageComponent,
-    LoginpageComponent
+    LoginpageComponent,
+    RegisterpageComponent,
+    ForgotpasswordpageComponent,
+    ResetpasswordpageComponent
   ],
   imports: [
     BrowserModule,
